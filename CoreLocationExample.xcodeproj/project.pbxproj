@@ -12,6 +12,7 @@
 		49CBE60721AEE9310007D15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49CBE60621AEE9310007D15D /* Assets.xcassets */; };
 		49CBE60A21AEE9310007D15D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49CBE60821AEE9310007D15D /* LaunchScreen.storyboard */; };
 		49CBE61221AEE98C0007D15D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBE61121AEE98C0007D15D /* MapViewController.swift */; };
+		49CBE61821AF0F720007D15D /* CustomMKAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CBE61721AF0F720007D15D /* CustomMKAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		49CBE60921AEE9310007D15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49CBE60B21AEE9310007D15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49CBE61121AEE98C0007D15D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		49CBE61721AF0F720007D15D /* CustomMKAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMKAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		49CBE5FE21AEE9300007D15D /* CoreLocationExample */ = {
 			isa = PBXGroup;
 			children = (
+				49CBE61721AF0F720007D15D /* CustomMKAnnotationView.swift */,
 				49CBE5FF21AEE9300007D15D /* AppDelegate.swift */,
 				49CBE60321AEE9300007D15D /* Main.storyboard */,
 				49CBE61121AEE98C0007D15D /* MapViewController.swift */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49CBE61821AF0F720007D15D /* CustomMKAnnotationView.swift in Sources */,
 				49CBE61221AEE98C0007D15D /* MapViewController.swift in Sources */,
 				49CBE60021AEE9300007D15D /* AppDelegate.swift in Sources */,
 			);
