@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MapViewController.swift
 //  CoreLocationExample
 //
 //  Created by Andrew Bailey on 11/28/18.
@@ -7,14 +7,18 @@
 //
 
 import UIKit
+import CoreLocation
 
-class ViewController: UIViewController {
+class MapViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        
     }
-
-
+    
+    @IBAction func startButtonPressed(_ sender: Any)
+    {
+        
+    }
 }
-
