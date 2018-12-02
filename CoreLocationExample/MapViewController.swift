@@ -54,11 +54,16 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
     {
         if CLLocationManager.authorizationStatus() == .authorizedWhenInUse {
             locationManager.startUpdatingLocation()
+            print("Does this win out?")
         }
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        print(locations.count)
+        
+        print(locationManager.location?.coordinate.latitude)
+        print(locationManager.location?.coordinate.longitude)
+        
+        /*print(locations.count)
         if let location = locations.last {
             //getCurrentCity(location: location)
             //createAnnotation(location: location, title: "Current Location")
@@ -68,7 +73,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
             print(location)
             print(location.coordinate.latitude)
             print(location.coordinate.longitude)
-        }
+        } // */
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error)
